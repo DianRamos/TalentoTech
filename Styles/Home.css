@@ -97,13 +97,70 @@ section.curriculum{
     flex-direction: column; 
     justify-items: center;
     gap: 5px;
-    padding: 20px; 
+    padding: 10px; 
 
 }
 section.curriculum div{
     margin-top: -220px;
     margin-bottom: 15px;
 }
+section.formacion{
+    display: flex;
+    flex-direction: column; 
+    justify-items: center;
+    gap: 5px;
+   padding: 20px;
+   margin: 20px;
+   box-shadow: 7px 6px 17px 1px rgba(46, 166, 214, 0.837);
+
+}
+section.formacion ol>li{
+margin-bottom: 20px;
+}
+section.experiencia {
+    display: flex;
+    flex-direction: column; 
+    justify-items: center;
+    gap: 5px;
+   padding: 20px;
+   margin: 20px;
+   box-shadow: 7px 6px 17px 1px rgba(46, 166, 214, 0.837);
+
+}
+section.contacto {
+    display: flex;
+    flex-direction: column; 
+    justify-items: center;
+    gap: 5px;
+   padding: 20px;
+   margin: 20px;
+   box-shadow: 7px 6px 17px 1px rgba(46, 166, 214, 0.837);
+}
+section.contacto ul>li{
+    margin-bottom: 20px;
+}
+section.habilidades{
+    display: flex;
+    flex-direction: column; 
+    justify-items: center;
+    gap: 5px;
+   padding: 20px;
+   margin: 20px;
+   box-shadow: 7px 6px 17px 1px rgba(46, 166, 214, 0.837);
+}
+
+section.idiomas{
+    display: flex;
+    flex-direction: column; 
+    justify-items: center;
+    gap: 5px;
+   padding: 20px;
+   margin: 20px;
+   box-shadow: 7px 6px 17px 1px rgba(46, 166, 214, 0.837);
+}
+section.idiomas table, th, td {
+    border: 1px solid;
+  }
 
 footer {
     display: flex;

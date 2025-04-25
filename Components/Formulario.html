@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <button>
+        <a href="../Curriculum.html">Home</a>
+        <a href="./Formulario.html">Contact us</a>
+      </button>
+    </nav>
+    <form id="formulario">
+      <fieldset>
+        <legend>DATOS PERSONALES</legend>
+        <label>Nombre</label><br />
+        <input
+          type="text"
+          placeholder="Jhon"
+          required
+          style="margin-top: 10px; margin-bottom: 10px" />
+        <br />
+        <label>Apellido</label><br />
+
+        <input
+          type="text"
+          placeholder="Doe"
+          required
+          style="margin-top: 10px; margin-bottom: 10px" /><br />
+        <label>Correo</label><br />
+        <input
+          type="email"
+          placeholder="some@some.com"
+          required
+          style="margin-top: 10px; margin-bottom: 10px" /><br />
+        <label>Edad</label><br />
+        <input type="number" placeholder="30" required /><br />
+      </fieldset>
+      <fieldset>
+        <legend>COMENTARIO</legend>
+        <label>Asunto</label><br />
+        <input list="aptitudes" name="aptitud" id="aptitud" />
+        <datalist id="aptitudes">
+          <option value="Desarrollo front"></option>
+          <option value="QA"></option>
+          <option value="Desarrollo bakend"></option>
+          <option value="Soporte"></option></datalist
+
+        ><br />
+
+        <label>Mensaje</label><br />
+        <textarea name="message" rows="20" cols="60"></textarea><br />
+        <button type="reset" style="margin-left: 160px; margin-top: 20px">
+          Limpiar
+        </button>
+        <button
+          type="button"
+          onclick="alert('Gracias por contactarnos!') "
+          style="margin-left: 50px; margin-top: 20px">
+          enviar
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>

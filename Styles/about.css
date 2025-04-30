@@ -1,0 +1,48 @@
+body {
+
+    align-items: center;
+    justify-content: center;
+}
+
+.profesional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    background-color: whitesmoke;
+    color: rgb(31, 30, 30);
+    border-radius: 5px;
+    box-shadow: 7px 6px 17px 1px rgba(43, 22, 234, 0.837);
+    margin: 60px;
+    margin-bottom: 300px;
+
+}
+
+.profesional img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    box-shadow: 10px 10px 5px 0px rgba(80, 19, 176, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(80, 19, 176, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(80, 19, 176, 0.75);
+    margin-bottom: 100px;
+    margin-top: 120px;
+
+}
+
+.profesional h2 {
+    color: rgba(80, 19, 176, 0.75);
+    text-shadow: 0 0 10px, 0 0 20px, 0 0 40px;
+}
+
+.description {
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 180px;
+}
+
+h3 {
+    color: rgba(80, 19, 176, 0.75);
+}
